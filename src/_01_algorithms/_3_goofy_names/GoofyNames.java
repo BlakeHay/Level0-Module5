@@ -3,12 +3,10 @@ package _01_algorithms._3_goofy_names;
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 0
  */
-
 import javax.swing.JOptionPane;
-
 public class GoofyNames {
-	public static void main(String[] args) {
-		String goofyName = "";
+public static void main(String[] args) {
+String goofyName = JOptionPane.showInputDialog("What is your name?");
 
 		// 1. Ask the user to enter their name
 

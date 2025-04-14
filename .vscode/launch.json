@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonaci",
+            "request": "launch",
+            "mainClass": "_01_algorithms._2_fibonacci.fibonaci",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
+            "name": "prime_or_not",
+            "request": "launch",
+            "mainClass": "_01_algorithms._1_prime_or_not.prime_or_not",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
+            "name": "prime_or_not",
+            "request": "launch",
+            "mainClass": "_01_algorithms.prime_or_not",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "_03_method_writing._4_calculator.Calculator"
