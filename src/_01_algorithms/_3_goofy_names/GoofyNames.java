@@ -6,7 +6,20 @@ package _01_algorithms._3_goofy_names;
 import javax.swing.JOptionPane;
 public class GoofyNames {
 public static void main(String[] args) {
-String goofyName = JOptionPane.showInputDialog("What is your name?");
+String name = JOptionPane.showInputDialog("What is your name?");
+String goofyName ="" ;
+char letter = name.charAt(0);
+for(Integer i = 0; i<name.length();i++){
+letter = name.charAt(i);
+if(i%2==0){
+letter = Character.toLowerCase(letter);
+}
+else{
+letter = Character.toUpperCase(letter);
+}
+goofyName += letter;
+}
+System.out.println(goofyName);
 
 		// 1. Ask the user to enter their name
 
@@ -32,6 +45,7 @@ String goofyName = JOptionPane.showInputDialog("What is your name?");
 		
 		// 8. Use pop-up to show user their Goofy name
 
-	}
+	
+}
 }
 

@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_for_loop_gauntlet",
+            "request": "launch",
+            "mainClass": "_02_nested_loops._3_for_loop_gauntlet._for_loop_gauntlet",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
             "name": "fibonaci",
             "request": "launch",
             "mainClass": "_01_algorithms._2_fibonacci.fibonaci",
