@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_1_obedient_robot",
+            "request": "launch",
+            "mainClass": "_03_method_writing._1_obedient_robot._1_obedient_robot",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
             "name": "_for_loop_gauntlet",
             "request": "launch",
             "mainClass": "_02_nested_loops._3_for_loop_gauntlet._for_loop_gauntlet",
