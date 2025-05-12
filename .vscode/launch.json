@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Code4Life",
+            "request": "launch",
+            "mainClass": "_04_practice._2_code_4_life.Code4Life",
+            "projectName": "Level0-Module5_26c0ea0a"
+        },
+        {
+            "type": "java",
             "name": "_1_obedient_robot",
             "request": "launch",
             "mainClass": "_03_method_writing._1_obedient_robot._1_obedient_robot",

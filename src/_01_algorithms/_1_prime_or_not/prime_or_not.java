@@ -5,7 +5,7 @@ public static void main(String[] args){
 String numberString = JOptionPane.showInputDialog("Give me a number.");
 Integer numberInteger = Integer.parseInt(numberString);
 boolean prime = true;
-for(Integer i = 2; i<numberInteger;i++){
+for(Integer i = 2; i<numberInteger;i){
 if(numberInteger%i==0&&!(numberInteger==i)){
 prime = false;
 }  
